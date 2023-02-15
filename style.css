@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root{
+    --fonte-burger: 'PT Sans Narrow', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardapio{
+    margin: 0 auto;
+    background-color: rgb(209, 205, 202);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: #fff;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem 3rem 3rem;
+    width: 400px;
+}
+
+.item h1{
+    font-family: var(--fonte-burger);
+    margin-bottom: -3rem;
+    text-shadow: 1px 1px 2px gainsboro;
+    border-bottom: 2px solid black;
+}
+.item img{
+    margin-bottom: -5rem;
+}
+.item p{
+    font-family: var(--fonte-burger);
+    font-size: 16pt;
+    margin: .5rem;
+}
+.item p:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+.item p:nth-of-type(2){
+    border-top: 2px solid red;
+    font-weight: bold;
+    font-size: 28pt;
+}
+.item button{
+    font-family: var(--fonte-burger);
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    padding: .4rem 7rem;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.item button:hover{
+    background-color: rgb(170, 1, 1);
+}
